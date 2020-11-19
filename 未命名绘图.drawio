@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-19T09:18:58.649Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="DwMCbqVv_EITIV_huPlA" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-19T09:22:01.212Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" etag="yXw54DdPGbwHT5svH2jX" version="13.9.7" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1854" dy="1087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="2596" dy="1522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -210,6 +210,9 @@
         </mxCell>
         <mxCell id="YmVjbaBAGrZHu8uXbrV_-8" value="httpReq" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="930" y="880" width="100" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="YmVjbaBAGrZHu8uXbrV_-120" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YmVjbaBAGrZHu8uXbrV_-8">
+          <mxGeometry x="45" y="580" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YmVjbaBAGrZHu8uXbrV_-9" value="main" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
           <mxGeometry x="70" y="880" width="100" height="710" as="geometry" />
@@ -585,13 +588,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YmVjbaBAGrZHu8uXbrV_-76" value="确保md5值是唯一的，并使用md5值注册httpHandler" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.066;exitY=0.713;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="YmVjbaBAGrZHu8uXbrV_-76" value="确保md5值是唯一的，并使用md5值注册httpHandler" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="428.15999999999985" y="1160.0500000000002" as="sourcePoint" />
+            <mxPoint x="428" y="1170" as="sourcePoint" />
             <mxPoint x="422.5" y="1199.1400000000003" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="477.5" y="1160.1399999999999" />
-              <mxPoint x="477.5" y="1199.1399999999999" />
+              <mxPoint x="428" y="1170" />
+              <mxPoint x="478" y="1170" />
+              <mxPoint x="478" y="1199" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -634,13 +638,14 @@
             <mxPoint x="840" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YmVjbaBAGrZHu8uXbrV_-90" value="获取matchStr的md5值" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="YmVjbaBAGrZHu8uXbrV_-90" value="获取matchStr的md5值" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.038;exitY=0.345;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="432.6633333333334" y="1130" as="sourcePoint" />
-            <mxPoint x="437.6633333333334" y="1168.3333333333335" as="targetPoint" />
+            <mxPoint x="433" y="1160" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="487.33000000000004" y="1130" />
-              <mxPoint x="487.33000000000004" y="1168" />
+              <mxPoint x="487" y="1130" />
+              <mxPoint x="487" y="1160" />
+              <mxPoint x="433" y="1160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -660,6 +665,40 @@
         </mxCell>
         <mxCell id="YmVjbaBAGrZHu8uXbrV_-118" value="for loop:&lt;br&gt;len(bodyList) times" style="shape=note;whiteSpace=wrap;html=1;size=10;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;direction=south;strokeColor=#007FFF;" vertex="1" parent="1">
           <mxGeometry x="580" y="1290" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YmVjbaBAGrZHu8uXbrV_-119" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;maxMatchMd5&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="YmVjbaBAGrZHu8uXbrV_-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1470.1428571428573" as="sourcePoint" />
+            <mxPoint x="830" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmVjbaBAGrZHu8uXbrV_-121" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;response body&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="975.9300000000001" y="1510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="910.9300000000001" y="1510" />
+              <mxPoint x="870.9300000000001" y="1490" />
+              <mxPoint x="920.9300000000001" y="1400" />
+              <mxPoint x="940.9300000000001" y="1390" />
+              <mxPoint x="690.9300000000001" y="1410" />
+              <mxPoint x="990.9300000000001" y="1310" />
+            </Array>
+            <mxPoint x="700" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YmVjbaBAGrZHu8uXbrV_-122" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;response&lt;/span&gt;&lt;/p&gt;" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="YmVjbaBAGrZHu8uXbrV_-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.93" y="1530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350.93" y="1530" />
+              <mxPoint x="310.93" y="1510" />
+              <mxPoint x="360.93" y="1420" />
+              <mxPoint x="380.93" y="1410" />
+              <mxPoint x="130.93" y="1430" />
+              <mxPoint x="430.93" y="1330" />
+            </Array>
+            <mxPoint x="120.00142857142845" y="1530" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
