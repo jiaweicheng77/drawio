@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T13:59:53.037Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="KKQYCQfWqH37u5uv9AXf" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-06T14:05:21.440Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="JKg9ia92sO0_t1AmFgnH" version="13.10.9" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
     <mxGraphModel dx="1298" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
@@ -11,6 +11,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="415" y="80" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-3" value="把path和method以空格相隔，作为checkUrl[string][]string的键，并把所有的匹配body放到值中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="150" width="205" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-4" target="CVcTwYPYK5-imSt1D_GD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-4" value="读取json文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="80" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
