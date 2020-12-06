@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T14:05:21.440Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="JKg9ia92sO0_t1AmFgnH" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-06T14:15:53.906Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="myBgYD2QCPflzXL91wKv" version="13.10.9" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="1298" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="742" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,9 @@
             <mxPoint x="415" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-3" target="CVcTwYPYK5-imSt1D_GD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CVcTwYPYK5-imSt1D_GD-3" value="把path和method以空格相隔，作为checkUrl[string][]string的键，并把所有的匹配body放到值中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="312.5" y="150" width="205" height="70" as="geometry" />
         </mxCell>
@@ -20,6 +23,40 @@
         </mxCell>
         <mxCell id="CVcTwYPYK5-imSt1D_GD-4" value="读取json文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="357.5" y="80" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-6" target="CVcTwYPYK5-imSt1D_GD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-10" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CVcTwYPYK5-imSt1D_GD-9">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-6" target="CVcTwYPYK5-imSt1D_GD-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-13" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CVcTwYPYK5-imSt1D_GD-12">
+          <mxGeometry x="0.4311" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-6" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;reflect.TypeOf(m.Response.Body).Kind() != reflect.String&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-8" target="CVcTwYPYK5-imSt1D_GD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-8" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;matchStr = getMatchStr(m.Matcher.Body);&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span class=&quot;s1&quot;&gt;md5Value = fmt.Sprintf(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%x&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;, md5.Sum([]&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;(fmt.Sprintf(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%s %s&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;, url, matchStr))))&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="390" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-11" target="CVcTwYPYK5-imSt1D_GD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-11" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span class=&quot;s1&quot;&gt;md5Value := fmt.Sprintf(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%x&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;, md5.Sum([]&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt;byte&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;(url)))&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-14" value="&lt;font style=&quot;font-size: 12px&quot;&gt;以md5Value作为&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot; style=&quot;font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;s2&quot; style=&quot;font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;]Mock的键&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
