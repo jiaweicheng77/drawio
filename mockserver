@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T14:23:49.632Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="T1GWduipF8AS5CPfR9Tw" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-06T14:30:17.592Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="YBUGSeT5hYTle6Mz-2qu" version="13.10.9" type="github">
   <diagram name="Page-1" id="0783ab3e-0a74-02c8-0abd-f7b4e66b4bec">
-    <mxGraphModel dx="742" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,8 +78,42 @@
         <mxCell id="CVcTwYPYK5-imSt1D_GD-20" value="&lt;font style=&quot;font-size: 12px ; background-color: rgb(255 , 255 , 255)&quot;&gt;从请求路径中解析出它注册时所使用到的路径:&lt;br&gt;&lt;/font&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;cpath := comparePath(checkUrl, c.Request.URL.Path)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="780" width="290" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-22" target="CVcTwYPYK5-imSt1D_GD-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CVcTwYPYK5-imSt1D_GD-22" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span class=&quot;s1&quot;&gt;k := fmt.Sprintf(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%s %s&quot;&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;, cpath, c.Request.Method);&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;thismock, err := MatchReq(checkUrl[k], k, bss)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="850" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-24" target="CVcTwYPYK5-imSt1D_GD-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-24" value="从thismock中解析出所有的属性占位符和函数占位符的值，并放在varMap这个变量中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="930" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-26" target="CVcTwYPYK5-imSt1D_GD-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-32" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CVcTwYPYK5-imSt1D_GD-30">
+          <mxGeometry x="0.1211" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CVcTwYPYK5-imSt1D_GD-26" target="CVcTwYPYK5-imSt1D_GD-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-33" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CVcTwYPYK5-imSt1D_GD-31">
+          <mxGeometry x="0.2164" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-26" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;andale mono&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;reflect.TypeOf(boy).Kind() == reflect.String&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1000" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-28" value="执行和boy匹配的回调，并把回调的返回作为本处理器的返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CVcTwYPYK5-imSt1D_GD-29" value="先把boy返回给调用者，再执行所有的回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
