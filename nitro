@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T12:27:02.870Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jLmWtnpqJmjPVUSzri_X" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-09T12:35:21.866Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="XGQRIvZLgUIh8E5lGVJy" version="13.10.9" type="github">
   <diagram id="-gcw9CV40-IookpALxPo" name="Page-1">
     <mxGraphModel dx="1298" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,8 +18,8 @@
         <mxCell id="QPiB438XGHcVX5l9Rwfs-3" value="开始监听网络，并处理每个请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362.5" y="110" width="87.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QPiB438XGHcVX5l9Rwfs-4" value="在注册之前进行校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="345" y="160" width="120" height="20" as="geometry" />
+        <mxCell id="QPiB438XGHcVX5l9Rwfs-4" value="在注册之前进行校验;&lt;br&gt;如果校验通过，就添加到注册表中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="160" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
