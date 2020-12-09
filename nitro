@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T12:22:54.838Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="vWDLo_0pu5J9pq6W_DKD" version="13.10.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-09T12:27:02.870Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jLmWtnpqJmjPVUSzri_X" version="13.10.9" type="github">
   <diagram id="-gcw9CV40-IookpALxPo" name="Page-1">
     <mxGraphModel dx="1298" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,11 +12,11 @@
             <mxPoint x="405" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QPiB438XGHcVX5l9Rwfs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="QPiB438XGHcVX5l9Rwfs-3" target="QPiB438XGHcVX5l9Rwfs-4">
+        <mxCell id="QPiB438XGHcVX5l9Rwfs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QPiB438XGHcVX5l9Rwfs-3" target="QPiB438XGHcVX5l9Rwfs-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QPiB438XGHcVX5l9Rwfs-3" value="开始监听网络" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="362.5" y="110" width="85" height="20" as="geometry" />
+        <mxCell id="QPiB438XGHcVX5l9Rwfs-3" value="开始监听网络，并处理每个请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="110" width="87.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QPiB438XGHcVX5l9Rwfs-4" value="在注册之前进行校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="345" y="160" width="120" height="20" as="geometry" />
